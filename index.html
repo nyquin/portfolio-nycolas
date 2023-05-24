@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="styles/estilo.css">
+		<link rel="stylesheet" href="styles/font.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Portfólio - Nycolas Andrey</title>
+	</head>
+
+	<body>	
+	<!-- INICIO CABECALHO -->
+		<header id="Home">
+			<div id="title">
+				<h1>Dev</h1>
+				<h1>Júnior</h1>
+			</div>
+
+			<ul>
+				<a href="#Home"><li>Home</li></a>
+				<a href="#SobreMim"><li>Sobre mim</li></a>
+				<a href="#Projetos"><li>Projetos</li></a>
+				<a href="#Contato"><li>Entre em Contato</li></a>
+			</ul>
+		</header>
+
+		<section  class="person">
+			<div class="person-content">
+				<div class="personLeft">
+					<h1>Olá,</h1>
+					<h1>Me chamo</h1>
+					<h1>Nycolas Andrey</h1>
+				</div>
+
+				<div class="linksPerfil">
+					<img src="imagens/3x4.png" class="foto" alt="profile-photo">
+					<p>Acesse:</p>
+					<div class="links">
+						<a onclick="linkedin()"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+						<a onclick="github()"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!-- FIM CABECALHO -->
+
+		<!-- INICIO CONTEUDO -->
+		<section class="conteudo">
+			<div class="tecnologias">
+				<h3>Tecnologias:</h3>
+				<div class="stacks">
+					<ul>
+						<li>
+							<div> 
+								<img src="imagens/html.svg" alt="html-icon">
+							</div>
+						</li>
+					</ul>
+					<ul>	
+						<li>
+							<div>
+								<img src="imagens/css.svg" alt="css-icon">
+							</div>
+						</li>
+					</ul>
+					<ul>	
+						<li>
+							<div>
+								<img src="imagens/js.svg" alt="javascript-icon">
+							</div>
+						</li>
+					</ul>
+					<ul>	
+						<li>
+							<div>
+								<img src="imagens/bootstrap.svg" alt="bootstrap-icon">
+							</div>
+						</li>
+					</ul>
+					<ul>	
+						<li>
+							<div>
+								<img src="imagens/php.svg" alt="php-icon">
+							</div>
+						</li>
+					</ul>	
+					<ul>						
+						<li>
+							<div>
+								<img src="imagens/mysql.svg" alt="sequelize-icon">
+							</div>
+						</li>
+					</ul>	
+					<ul>	
+						<li>
+							<div>
+								<img src="imagens/ajax.svg" alt="ajax-icon">
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<!-- FIM CONTEUDO -->
+
+		<!-- SOBRE MIM -->
+		<section id="SobreMim">
+			<div class="conteudoSobre">
+				<div class="caixaSobre">
+					<div class="sobre">
+						<h2>
+							<p>👨‍💻</p>
+							<p><span>Desenvolvedor Full Stack</span></p>
+						</h2>
+
+						<h3>
+							Sou um Desenvolvedor Full Stack com Experiências em
+							<p>HTML, CSS, JavaScript, Bootstrap, PHP, MYSQL e Ajax.</p>
+						</h3>
+
+						<h4>
+							Meu nome é Nycolas Andrey, tenho 19 anos e estou em busca da minha primeira oportunidade no mercado de Programação. Gostaria de engrenar na carreira de Desenvolvedor como Júnior e evoluindo meus conhecimentos até me tornar Sênior/Pleno, onde eu almejo chegar, e aprimorando cada dia mais para me tornar um profissional de extrema competência, confiança e eficiência.
+						</h4>
+					</div>
+				</div>
+		</section>
+		<!-- FIM SOBRE MIM -->
+
+		<!-- PROJETOS -->
+		<section id="Projetos" class="projects">
+			<div class="titulo-projetos">
+				<h2>PROJETOS</h2>
+			</div>
+
+			<div class="wrapper-projects">
+
+				<div class="card-project">
+					<div class="content-project">
+						<div class="image-project">
+							<img src="imagens/login.png" alt="image-app">
+						</div>
+
+						<span>Página de Login</span>
+
+						<p>Projeto pessoal de uma página de login.</p>
+
+						<div class="cta-project">
+							<a onclick="codLogin()">	
+								Código
+								<i class="fa-brands fa-github"></i>
+							</a>
+							<a onclick="siteLogin()">
+								Site
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>		
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-project">
+					<div class="content-project">
+						<div class="image-project">
+							<img src="imagens/register.png" alt="image-app">
+						</div>
+
+						<span>Página de Registro</span>
+
+						<p>Projeto pessoal de uma página de registro.</p>
+
+						<div class="cta-project">
+							<a onclick="codRegister()">Código
+								<i class="fa-brands fa-github"></i>
+							</a>
+							<a onclick="siteRegister()">Site
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-project">
+					<div class="content-project">
+						<div class="image-project">
+							<img src="imagens/stopwatch.png" alt="image-app">
+						</div>
+
+						<span>StopWatch</span>
+
+						<p>Esse projeto simula um cronomêtro.</p>
+
+						<div class="cta-project">
+							<a onclick="codStopwatch()">Código
+								<i class="fa-brands fa-github"></i>
+							</a>
+							<a onclick="siteStopwatch()">Site
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="card-project">
+					<div class="content-project">
+						<div class="image-project">
+							<img src="imagens/game.png" alt="image-app">
+						</div>
+
+						<span>Mata Mosquito</span>
+
+						<p>Projeto acadêmico de um game</p>
+
+						<div class="cta-project">
+							<a onclick="codGame()">Código
+								<i class="fa-brands fa-github"></i>
+							</a>
+							<a onclick="siteGame()">Site
+								<i class="fa-solid fa-arrow-up-right-from-square"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+
+			</div>
+		</section>
+		<!-- FIM PROJETOS -->
+
+		<!-- CONTATOS -->
+		<section id="Contato">
+			<div class="titulo-contato">
+				<h2>CONTATO</h2>
+			</div>
+
+			<div class="contatos">
+				<i class="fa-solid fa-envelope"></i>
+				<span>E-mail: </span><a href="nycolasbrito79@hotmail.com"><p>nycolasbrito79@hotmail.com</p></a>
+			</div>
+
+			<div class="contatos">
+				<i class="fa-solid fa-phone"></i>
+			
+				<span>Celular para contato: </span><p>(27) 98861-7826</p>
+			</div>
+		</section>
+		<!-- FIM CONTATOS -->
+
+		<!-- FOOTER -->
+		<section id="footer">
+			<div class="container-footer">
+      			<h2>Feito por</h2>
+      			<h3>Nycolas Andrey © 2023</h3>
+    		</div>
+		</section>
+		<!-- FIM FOOTER -->
+	</body>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/a9b3abfca6.js" crossorigin="anonymous"></script>
+</html>
