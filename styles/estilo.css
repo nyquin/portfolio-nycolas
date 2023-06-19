@@ -7,6 +7,7 @@
 }
 
 body {
+	padding: 120px 0px 0px 0px;
 	background: #E8E8E8;
 	color: black;
 	font-family: poppinsregular;
@@ -22,12 +23,23 @@ html {
 
 /************ CABEÇALHO ***********/
 
-header {	
+header {
+	background: #E8E8E8;
+	box-shadow: 0.9px 0.2px black;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 	width: 100%;
+	height: 90px;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	overflow: visible;
+}
+
+#home {
+ margin-top: 120px;
 }
 
 #title {
@@ -140,6 +152,10 @@ h1{
 
 /*********** SOBRE MIM ***********/
 
+#SobreMim {
+	padding-bottom: 20px;
+}
+
 .conteudoSobre {
 	width: 50%;
 	margin: 0 auto;
@@ -216,7 +232,7 @@ h1{
 	padding: 30px 20px 20px;
 	margin: 0px 10px;
 	background: #fff;
-	position: relative;
+/*	position: relative;*/
 	display: flex;
 	align-items: center;
 	flex-direction: column;
@@ -231,7 +247,7 @@ h1{
 }
 
 .image-project{
-	position: relative;
+/*	position: relative;*/
 	object-fit: cover;
 	overflow: hidden;
 	height: 230px;
