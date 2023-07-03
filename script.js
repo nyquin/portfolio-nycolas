@@ -2,24 +2,24 @@ var siteCod = Array()
 
   siteCod['cod'] = Array()
 
-  siteCod['cod'][1] = "https://github.com/nyquin/login-page"
-  siteCod['cod'][2] = "https://github.com/nyquin/register-page"
+  siteCod['cod'][1] = "https://github.com/nyquin/project_lidia_cabelereira"
+  siteCod['cod'][2] = "https://github.com/nyquin/project_lista_tarefas"
   siteCod['cod'][3] = "https://github.com/nyquin/StopWatch_Project"
   siteCod['cod'][4] = "https://github.com/nyquin/gameMataMosquito"
 
   siteCod['site'] = Array()
 
-  siteCod['site'][1] = "https://loginpage-nycolas.netlify.app"
-  siteCod['site'][2] = "https://registerpage-nycolas.netlify.app"
+  siteCod['site'][1] = ""
+  siteCod['site'][2] = "app1.infinityfreeapp.com"
   siteCod['site'][3] = "https://stopwatch-project-nycolas.netlify.app"
   siteCod['site'][4] = "https://matamosquito-nycolas.netlify.app"
 
 
-function codLogin(){
+function codLidia(){
   window.open(siteCod['cod'][1]);
 }
 
-function siteLogin() {
+function siteLidia() {
   window.open(siteCod['site'][1]);
 }
 
@@ -52,6 +52,7 @@ function codGame(){
 function siteGame() {
   window.open(siteCod['site'][4]);
 }
+
 
 /***** links no perfil *****/
 

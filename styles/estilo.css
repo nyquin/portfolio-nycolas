@@ -153,6 +153,7 @@ h1{
 /*********** SOBRE MIM ***********/
 
 #SobreMim {
+	padding-top: 100px;
 	padding-bottom: 20px;
 }
 
@@ -202,6 +203,10 @@ h1{
 }
 
 /********** PROJETOS ***********/
+
+#Projetos {
+	padding-top: 80px;
+}
 
 .projects {
 	width: 100%;
